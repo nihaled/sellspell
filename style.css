@@ -110,8 +110,12 @@ body{
   /* font-family: "Lato", sans-serif; */
 }
 
-.hero .container .content-area p span {
-  font-size: 40px;
+.hero .container .content-area span{
+  font-size: 30px;
+  line-height: 1;
+}
+
+.hero .container .content-area .span {
   font-weight: 700;
   text-decoration: underline;
   color: blue;
@@ -124,6 +128,7 @@ body{
   align-items: center;
   background: #000000;
   border-radius: 8px;
+  margin-top: 30px;
 }
 
 .hero .container .content-area .button-area-hero a {
